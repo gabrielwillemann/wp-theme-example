@@ -1,0 +1,48 @@
+/*
+Theme Name: WP Theme Example
+Theme URI: https://github.com/gabrielwillemann/wp-theme-example
+Description: This is a theme example for wordpress
+Author: Gabriel Willemann
+Author URI: http://sharklabs.com.br/
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header, .footer {
+  border: 1px solid;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content {
+  display: table;
+  width: 100%;
+}
+
+.wrap {
+  float: left;
+  width: 100%;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  border-radius: 10px;
+  float: right;
+  width: 30%;
+  border: 1px solid;
+  padding: 10px;
+  padding-left: 2%;
+  margin: 10px;
+}
